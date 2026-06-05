@@ -1,4 +1,4 @@
-## WAF Logic Asymmetry Exploitation Kit (v2.0)
+## WAF Logic Asymmetry Exploitation Kit (v1.0)
 - Author: QA210
 - Date: June 06, 2026
 - Version: 1.0 (Enhanced)
