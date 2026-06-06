@@ -23,9 +23,9 @@ Techniques
 - ##  1. Asymmetric Content-Encoding Deception (ACED)
 Exploits Fail-Open logic.
 
-Header: Content-Encoding: gzip
-Body: Raw plain-text data.
-Logic: WAF fails to decompress -> Fails Open -> Backend reads raw data -> Payload executes.
+- Header: Content-Encoding: gzip
+- Body: Raw plain-text data.
+- Logic: WAF fails to decompress -> Fails Open -> Backend reads raw data -> Payload executes.
 
 - ## 2. Identity-Based Transparency Deception (IBTD)
 Exploits performance optimization logic.
