@@ -1,0 +1,635 @@
+[
+  {
+    "technique": "gzip-fake",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:18 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcLMCAKfXrdHfkQ0fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "gzip-fake",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:19 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcU2cfsFKwVec-X0fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "gzip-fake",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:19 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcaTPf-iJ2N--Ob1fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/WorkflowServiceXml}getWorkflowRequestList</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "gzip-identity",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:20 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcpf3tCceEfG-Ej1fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "gzip-identity",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:21 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcy0fQFru3Pzftr1fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "gzip-identity",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:21 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcQg6kv0S6ilb9G1fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/WorkflowServiceXml}getWorkflowRequestList</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "x-gzip-fake",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:22 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcXZUqncFqWVaYO1fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "x-gzip-fake",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:23 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcp33p3zlyBn5B41fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "x-gzip-fake",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:23 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcsa5hyI4h6v5pa2fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/WorkflowServiceXml}getWorkflowRequestList</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "deflate-fake",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:24 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcNwhBg0RXJYaei2fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "deflate-fake",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:25 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcB_GfY7-yd2hSx2fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "deflate-fake",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:25 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc8AZRz59Y1ZhGF2fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/WorkflowServiceXml}getWorkflowRequestList</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "br-fake",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:26 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcXqcTwwKJIHekV2fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "br-fake",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:27 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcFOW0YaWMqv9_22fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "br-fake",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:28 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc0iJKFQXsqphY_2fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/WorkflowServiceXml}getWorkflowRequestList</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "gzip-valid",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:29 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc4J-I4_1-TS7Co3fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "gzip-valid",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:29 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc4NsBeQr4rF5rw3fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "gzip-valid",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:30 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcA7tcRxBXVD-6L3fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "chunked-gzip-fake",
+    "endpoint": "/services/DocService",
+    "status": 400,
+    "bypassed": true,
+    "headers": {
+      "Cache-Control": "no-cache",
+      "Connection": "close",
+      "Content-Length": "1680",
+      "Content-Type": "text/html"
+    },
+    "body_snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>400</title>\n<style type=\"text/css\">\nbody {\n    background-color: #f3f3f4;\n    color: #676a6c;\n    height: 100%;\n    font-family: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n}\n\n.middle-box {\n  max-width: 600px;\n  z-index: 100;\n  margin: 0 auto;\n  padding-top: 40px;\n  text-"
+  },
+  {
+    "technique": "chunked-gzip-fake",
+    "endpoint": "/services/HrmService",
+    "status": 400,
+    "bypassed": true,
+    "headers": {
+      "Cache-Control": "no-cache",
+      "Connection": "close",
+      "Content-Length": "1680",
+      "Content-Type": "text/html"
+    },
+    "body_snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>400</title>\n<style type=\"text/css\">\nbody {\n    background-color: #f3f3f4;\n    color: #676a6c;\n    height: 100%;\n    font-family: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n}\n\n.middle-box {\n  max-width: 600px;\n  z-index: 100;\n  margin: 0 auto;\n  padding-top: 40px;\n  text-"
+  },
+  {
+    "technique": "chunked-gzip-fake",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 400,
+    "bypassed": true,
+    "headers": {
+      "Cache-Control": "no-cache",
+      "Connection": "close",
+      "Content-Length": "1680",
+      "Content-Type": "text/html"
+    },
+    "body_snippet": "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>400</title>\n<style type=\"text/css\">\nbody {\n    background-color: #f3f3f4;\n    color: #676a6c;\n    height: 100%;\n    font-family: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n}\n\n.middle-box {\n  max-width: 600px;\n  z-index: 100;\n  margin: 0 auto;\n  padding-top: 40px;\n  text-"
+  },
+  {
+    "technique": "double-ce-raw-socket",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {},
+    "body_snippet": "168\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>\r\n0\r\n\r\n"
+  },
+  {
+    "technique": "double-ce-raw-socket",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {},
+    "body_snippet": ""
+  },
+  {
+    "technique": "double-ce-raw-socket",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {},
+    "body_snippet": "17d\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/WorkflowServiceXml}getWorkflowRequestList</faultstring></soap:Fault></soap:Body></soap:Envelope>\r\n0\r\n\r\n"
+  },
+  {
+    "technique": "gzip-then-identity",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {},
+    "body_snippet": "168\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>\r\n0\r\n\r\n"
+  },
+  {
+    "technique": "gzip-then-identity",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {},
+    "body_snippet": ""
+  },
+  {
+    "technique": "gzip-then-identity",
+    "endpoint": "/services/WorkflowServiceXml",
+    "status": 500,
+    "bypassed": true,
+    "headers": {},
+    "body_snippet": "17d\r\n<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/WorkflowServiceXml}getWorkflowRequestList</faultstring></soap:Fault></soap:Body></soap:Envelope>\r\n0\r\n\r\n"
+  },
+  {
+    "technique": "ce-GZIP",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:37 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc121AsjySE5_Bt5fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-GZIP",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:37 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc_m2Ku_uYL6hqB5fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "ce-Gzip",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:38 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcOJZjaC2ymjfeJ5fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-Gzip",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:38 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcweigW2hpXTh5Q5fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "ce-GZiP",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:39 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc2NjOyxPzM0-TY5fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-GZiP",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:39 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcFVv3oyQgJr9I65fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "ce-gZIp",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:40 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcT-BcTv-o57fxc6fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-gZIp",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:40 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc1x3QK3JFLPdlk6fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "ce-gzip;q=0",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:41 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcpuCsgEC348-as6fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-gzip;q=0",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:41 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc-Iq2fLWEfta0z6fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "ce-gzip;q=0.0",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:42 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcvvG-CBUx7TdPH6fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-gzip;q=0.0",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:42 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abccdlyaGwKU4bEP6fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "ce-gzip, *;q=0",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:43 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abc1I3RGLhSit9sX6fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-gzip, *;q=0",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:43 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcpBsZ5T6Curch56fA6z; path=/"
+    },
+    "body_snippet": ""
+  },
+  {
+    "technique": "ce-identity;q=1, gzip;q=0",
+    "endpoint": "/services/DocService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:44 GMT",
+      "Content-Type": "text/xml; charset=UTF-8",
+      "Transfer-Encoding": "chunked",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abciS4CQo8nyx78a7fA6z; path=/"
+    },
+    "body_snippet": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"><soap:Body><soap:Fault><faultcode>soap:Client</faultcode><faultstring>Invalid operation: {http://localhost/services/DocService}getAllDoc</faultstring></soap:Fault></soap:Body></soap:Envelope>"
+  },
+  {
+    "technique": "ce-identity;q=1, gzip;q=0",
+    "endpoint": "/services/HrmService",
+    "status": 500,
+    "bypassed": true,
+    "headers": {
+      "Date": "Fri, 05 Jun 2026 23:21:44 GMT",
+      "Content-Type": "text/html; charset=utf-8",
+      "Content-Length": "0",
+      "Connection": "close",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-XSS-Protection": "1",
+      "Set-Cookie": "ecology_JSessionId=abcrsqACndALLaXi7fA6z; path=/"
+    },
+    "body_snippet": ""
+  }
+]
+
+cập nhật cho cả 2 file
